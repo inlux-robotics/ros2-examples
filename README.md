@@ -58,7 +58,7 @@ Rotates the base joint (j1) to 1.5 rad, keeping the remaining joints in the defa
   ros2 launch fairino5_v6_robot_moveit_config move_base.launch.py
 
 <a href="ros2_ws_src/media/video3.mp4" target="_blank">
-  <video src="media/video3.mp4" width="450" alt="Example1">
+  <video src="ros2_ws_src/media/video3.mp4" width="450" alt="Example1">
 </a>
 
 
@@ -81,7 +81,7 @@ The resulting JointTrajectory message is published directly to:
  ros2 topic echo /fairino5_controller/joint_trajectory
 
 <a href="ros2_ws_src/media/joint_trajectory.png" target="_blank">
-  <img src="media/joint_trajectory.png" width="450" alt="Robots">
+  <img src="ros2_ws_src/media/joint_trajectory.png" width="450" alt="Robots">
 </a>
 
 
