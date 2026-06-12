@@ -51,6 +51,7 @@ source install/setup.bash
 
 Running the Examples
 Ensure your Fairino 5 simulation or hardware controller interface is actively running before executing any of the following nodes.
+  ros2 launch fairino_mtc_demo mtc_demo_env.launch.py
 
 1. Base Motion Profile (move_base.cpp)
 Rotates the base joint (j1) to 1.5 rad, keeping the remaining joints in the default home posture.
