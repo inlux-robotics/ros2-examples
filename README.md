@@ -76,7 +76,7 @@ Runs a full Cartesian pick‑and‑place routine, including grasping and joint�
   ros2 launch fairino5_v6_robot_moveit_config move_pick_place.launch.py
 
 <a href="[https://youtube.com/shorts/2tpM4zZSS9I](https://youtu.be/hNIOeZbGjUs
-)" target="_blank">Video</a>
+)" target="_blank"> </a>
 
 https://youtu.be/hNIOeZbGjUs
 
