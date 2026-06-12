@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 from moveit_configs_utils import MoveItConfigsBuilder
 
 def generate_launch_description():
-    # Cargamos el robot oficial
+    # Load the official robot MoveIt configuration package
     moveit_config = (
         MoveItConfigsBuilder("fairino5_v6_robot", package_name="fairino5_v6_moveit2_config")
         .to_moveit_configs()
@@ -12,7 +12,7 @@ def generate_launch_description():
     
     moveit_params = moveit_config.to_dict()
     
-    # TRUCO MAESTRO: Inyectamos a la fuerza la asignación del controlador en los parámetros del nodo
+    # MASTER PATCH: Forcefully inject the controller manager specifications into the node parameters
     moveit_params["moveit_managed_controllers"] = ["fairino5_controller"]
     moveit_params["moveit_simple_controller_manager"] = {
         "controller_names": ["fairino5_controller"],
@@ -22,9 +22,10 @@ def generate_launch_description():
         }
     }
 
+    # Define the execution node mapping to the English refactored executable
     run_move_node = Node(
         package="fairino5_v6_robot_moveit_config",
-        executable="test_move_node",
+        executable="move_single_joint_node",
         output="screen",
         parameters=[moveit_params],
     )
