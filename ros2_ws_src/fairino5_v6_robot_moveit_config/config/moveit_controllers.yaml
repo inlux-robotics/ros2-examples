@@ -1,0 +1,17 @@
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+moveit_simple_controller_manager:
+  controller_names:
+    - fairino5_controller
+
+  fairino5_controller:
+    type: joint_trajectory_controller/JointTrajectoryController
+    action_ns: joint_trajectory_trajectory
+    default: True
+    joints:
+      - j1
+      - j2
+      - j3
+      - j4
+      - j5
+      - j6
