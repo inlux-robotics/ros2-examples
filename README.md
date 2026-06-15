@@ -67,7 +67,7 @@ Executes a safe rotation of 0.785 rad (45°) on the first joint.
 
   ros2 launch fairino5_v6_robot_moveit_config move_single_joint.launch.py
 
-  <a href="[https://youtu.be/nVjCMH9TRiQ](https://youtu.be/nVjCMH9TRiQ)" target="_blank">Single Joint Motion Video</a>
+[![Watch Single Joint Motion Video](https://img.youtube.com/vi/nVjCMH9TRiQ/0.jpg)](https://youtu.be/nVjCMH9TRiQ)
     
 
 3. Pick and Place Sequence (mover_pick_place.cpp)
@@ -75,8 +75,7 @@ Runs a full Cartesian pick‑and‑place routine, including grasping and joint�
 
   ros2 launch fairino5_v6_robot_moveit_config move_pick_place.launch.py
 
-<a href="[https://youtu.be/1sjY4zWZriE](https://youtu.be/1sjY4zWZriE
-)" target="_blank"> Pick and Place video</a>
+[![Watch Pick and Place Video](https://img.youtube.com/vi/1sjY4zWZriE/0.jpg)](https://youtu.be/1sjY4zWZriE)
 
 The resulting JointTrajectory message is published directly to:
 /fairino5_controller/joint_trajectory
