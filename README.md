@@ -59,9 +59,7 @@ Rotates the base joint (j1) to 1.5 rad, keeping the remaining joints in the defa
   ros2 launch fairino5_v6_robot_moveit_config move_base.launch.py
 
 
-<a href="[https://youtu.be/cKOAUhq4eBk
-](https://youtu.be/cKOAUhq4eBk
-)" target="_blank"> Base Joint Motion Video</a>
+[![Watch the video](https://img.youtube.com/vi/cKOAUhq4eBk/0.jpg)](https://youtu.be/cKOAUhq4eBk)
 
 
 2. Single Joint Safe Rotation (test_move.cpp)
