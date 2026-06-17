@@ -60,8 +60,10 @@ colcon build --symlink-install
 
 
 4. Source the setup files:
-
+```bash
 source install/setup.bash
+
+```
 
 Running the Examples
 Ensure your Fairino 5 simulation or hardware controller interface is actively running before executing any of the following nodes.
