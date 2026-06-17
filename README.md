@@ -14,19 +14,23 @@ The examples demonstrate how to compute valid mathematical trajectories through 
 
 Robot Drivers: The fairino5_controller or a valid simulation stack must be running and subscribing to /fairino5_controller/joint_trajectory.
 
-Repository Structure
-config/   → MoveIt configuration, kinematics, joint limits  
-launch/   → Launch files for MoveIt and example execution nodes:
-              • move_base.launch.py
-              • move_single_joint.launch.py
-              • move_pick_place.launch.py
 
-media/    → Demonstration videos and screen recordings  
+## Repository Structure
 
-src/      → Example motion planning nodes:
-              • move_base.cpp         → Base joint rotation profile (fairino_move_base)
-              • move_single_joint.cpp → Safe single‑joint displacement (fairino_single_joint)
-              • move_pick_place.cpp   → Cartesian pick‑and‑place routine (fairino_pick_place)
+```bash
+📦 ros2-moveit-integration
+┣ 📂 config                  # MoveIt configuration profiles, kinematics solvers, and joint constraints
+┣ 📂 launch                  # Orchestration launch targets and automated execution pipelines
+┃ ┣ 📜 move_base.launch.py
+┃ ┣ 📜 move_single_joint.launch.py
+┃ ┗ 📜 move_pick_place.launch.py
+┣ 📂 media                   # Reference validation clips and hardware execution records
+┗ 📂 src                     # Native C++ motion planning source nodes
+  ┣ 📜 move_base.cpp         # Joint space rotation profile benchmarks (fairino_move_base)
+  ┣ 📜 move_single_joint.cpp # Deterministic single-joint displacement bounds (fairino_single_joint)
+  ┗ 📜 move_pick_place.cpp   # Cartesian pick-and-place sequence interpolation (fairino_pick_place)
+
+```
               
 Installation & Building
 
