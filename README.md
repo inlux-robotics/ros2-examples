@@ -83,7 +83,7 @@ Rotates the base joint (j1) to 1.5 rad, keeping the remaining joints in the defa
 
 
 [![Watch the video](https://img.youtube.com/vi/cKOAUhq4eBk/0.jpg)](https://youtu.be/cKOAUhq4eBk)
-
+[Watch the video](https://youtu.be/cKOAUhq4eBk)]
 
 2. Single Joint Safe Rotation (test_move.cpp)
 Executes a safe rotation of 0.785 rad (45°) on the first joint.
