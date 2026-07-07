@@ -4,8 +4,8 @@ This repository contains practical examples and configurations for controlling t
 
 The examples demonstrate how to compute valid mathematical trajectories through MoveIt 2 and inject the resulting raw trajectory frames directly into the `ros2_control` hardware driver bus.
 
-## • SDK Version: v3.9.4
-## • Fairino WebApp version: 3.9.4
+ • SDK Version: v3.9.4
+ • Fairino WebApp version: 3.9.4
 
 
 ## Prerequisites
