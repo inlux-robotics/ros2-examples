@@ -1,10 +1,10 @@
-# ROS 2 MoveIt Examples for Fairino 5 V6
+# ROS 2 MoveIt Examples for Fairino FR5
 
 This repository contains practical examples and configurations for controlling the Fairino robot manipulator using ROS 2 and MoveIt 2. 
 
 The examples demonstrate how to compute valid mathematical trajectories through MoveIt 2 and inject the resulting raw trajectory frames directly into the `ros2_control` hardware driver bus.
 
- • SDK Version: v3.9.4
+ • SDK Version: v3.0.0_robot3.9.4
  
  • Fairino WebApp version: 3.9.4
 
